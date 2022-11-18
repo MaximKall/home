@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    margin: 3vw;
+    font-family: 'Sono', sans-serif;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.title {
+    padding-left: 30px;
+}
+
+.neumo {
+    border-radius: 40px;
+    background: #282828;
+    box-shadow: 20px 20px 60px #222222,
+        -20px -20px 60px #2e2e2e;
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    padding-left: 30px;
+    margin-bottom: 7vh;
+}
