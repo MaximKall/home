@@ -1,0 +1,13 @@
+{
+    "name": "Dashboard",
+    "short_name": "Dashboard",
+    "start_url": "https://home.maximiliankallina.at",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/assets/dashboardDark.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
