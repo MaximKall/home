@@ -21,8 +21,8 @@ a:hover {
 .neumo {
     border-radius: 40px;
     background: #282828;
-    box-shadow: 20px 20px 60px #222222,
-        -20px -20px 60px #2e2e2e;
+    box-shadow: 20px 20px 60px #1c1c1c,
+        -20px -20px 60px #343434;
     padding-top: 1vh;
     padding-bottom: 4vh;
     padding-left: 30px;
