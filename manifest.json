@@ -1,8 +1,8 @@
 {
     "name": "Dashboard",
-    "short_name": "Dashboard",
     "start_url": "https://home.maximiliankallina.at",
     "display": "standalone",
+    "theme_color": "transparent",
     "icons": [
         {
             "src": "/assets/dashboardDark.png",
