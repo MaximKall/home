@@ -34,3 +34,43 @@ a {
 .test {
     text-decoration: none;
 }
+
+.neuButRed {
+    width: 40px;
+    height: 20px;
+    border-radius: 6px;
+    background: #ff0000;
+    box-shadow: inset 5px 5px 10px #bf0000,
+        inset -5px -5px 10px #ff0000;
+}
+
+.togButRed {
+    height: 15px;
+    width: 15px;
+    float: left;
+    margin: 2.5px;
+    border-radius: 4px;
+    background: linear-gradient(145deg, #2b2b2b, #242424);
+    box-shadow: 5px 5px 10px #1e1e1e,
+        -5px -5px 10px #323232;
+}
+
+.neuButGre {
+    width: 40px;
+    height: 20px;
+    border-radius: 6px;
+    background: #00ff00;
+    box-shadow: inset 5px 5px 10px #008000,
+        inset -5px -5px 10px #00ff00;
+}
+
+.togButGre {
+    height: 15px;
+    width: 15px;
+    float: right;
+    margin: 2.5px;
+    border-radius: 4px;
+    background: linear-gradient(145deg, #2b2b2b, #242424);
+    box-shadow: 5px 5px 10px #1e1e1e,
+        -5px -5px 10px #323232;
+}
