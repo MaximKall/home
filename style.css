@@ -10,8 +10,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: white;
+@media (hover: hover) {
+    a:hover {
+        color: white;
+    }
 }
 
 .title {
