@@ -17,7 +17,16 @@ a {
 }
 
 .title {
+    display: flex;
+    padding-right: 30px;
     padding-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    margin-bottom: 3vh;
+    margin-top: 0;
 }
 
 .neumo {
