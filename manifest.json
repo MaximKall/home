@@ -5,7 +5,7 @@
     "theme_color": "transparent",
     "icons": [
         {
-            "src": "/assets/dashboard.icns",
+            "src": "/assets/dashboard_512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
