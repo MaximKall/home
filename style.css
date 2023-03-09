@@ -10,8 +10,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: white;
+@media (hover: hover) {
+    a:hover {
+        color: white;
+    }
 }
 
 .title {
@@ -32,7 +34,7 @@ a:hover {
 .neuButRed {
     width: 40px;
     height: 20px;
-    border-radius: 5px;
+    border-radius: 6px;
     background: #ff0000;
     box-shadow: inset 5px 5px 10px #bf0000,
         inset -5px -5px 10px #ff0000;
@@ -52,7 +54,7 @@ a:hover {
 .neuButGre {
     width: 40px;
     height: 20px;
-    border-radius: 5px;
+    border-radius: 6px;
     background: #00ff00;
     box-shadow: inset 5px 5px 10px #008000,
         inset -5px -5px 10px #00ff00;
