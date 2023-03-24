@@ -39,3 +39,66 @@ a {
     padding-left: 30px;
     margin-bottom: 7vh;
 }
+
+.login {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fields {
+    max-width: 100%;
+    margin: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .login {
+        flex-direction: column;
+    }
+
+    .fields {
+        max-width: 100%;
+    }
+}
+
+.fields input {
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    padding: 20px 10px 20px 5px;
+}
+
+.password {
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #1c1c1c,
+        inset -8px -8px 8px #343434;
+}
+
+.signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #1c1c1c,
+        -3px -3px 8px #343434;
+    transition: 0.5s;
+    padding: 15px;
+}
+
+.signin-button:hover {
+    background: #32e6bf;
+}
+
+.signin-button:active {
+    background: #04644f;
+}
