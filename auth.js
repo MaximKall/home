@@ -1,14 +1,3 @@
-function authenticate() {
-    var password = document.getElementById("password-input").value;
-    if (password == "mypassword") {
-        setCookie("authenticated", true, 1);
-        window.location.href = "protected.html";
-    }
-    else {
-        alert("Incorrect password. Please try again.");
-    }
-}
-
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -32,19 +21,30 @@ function getCookie(cname) {
     return "";
 }
 
-function checkCookie() {
-    var authenticated = getCookie("authenticated");
-    if (authenticated != "") {
-        window.location.href = "protected.html";
-    }
-}
-
 function checkAuth() {
     var authenticated = getCookie("authenticated");
     if (authenticated == "") {
-        window.location.href = "authentication.html";
+        document.getElementById("protected-content").style.display = "none";
     }
     else {
+        document.getElementById("authentication-form").style.display = "none";
         document.getElementById("protected-content").style.display = "block";
     }
 }
+
+function authenticate(event) {
+    event.preventDefault();
+    var password = document.getElementById("password-input").value;
+    if (password == "verySafePassword") {
+        setCookie("authenticated", true, 1);
+        document.getElementById("authentication-form").style.display = "none";
+        document.getElementById("protected-content").style.display = "block";
+    }
+    else {
+        alert("Incorrect password. Please try again.");
+    }
+}
+
+window.onload = function () {
+    checkAuth();
+};
