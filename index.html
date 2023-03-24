@@ -20,16 +20,18 @@
 <body>
     <div id="authentication-form">
         <h1>Enter Password to Access Content</h1>
-        <div class="login">
-            <div class="fields">
-                <form onsubmit="authenticate(event)">
-                    <div class="password"><input type="password" class="pass-input" placeholder="password" /></div>
-                </form>
+        <form onsubmit="authenticate(event)">
+            <div class="login">
+                <div class="fields">
+                    <div class="password">
+                        <input type="password" id="password-input" class="password-input" placeholder="password" />
+                    </div>
+                </div>
+                <div class="fields">
+                    <button class="signin-button" type="submit">Authenticate</button>
+                </div>
             </div>
-            <div class="fields">
-                <button class="signin-button" type="submit">Authenticate</button>
-            </div>
-        </div>
+        </form>
     </div>
     <div id="protected-content" style="display: none;">
         <div class="title">
